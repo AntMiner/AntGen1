@@ -1,2 +1,2 @@
-AntGen1
+AntMiner First Generaion technical materials.
 =======
