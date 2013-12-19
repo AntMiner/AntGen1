@@ -10,7 +10,7 @@ File List
 What is provided by Bitmain:
  - PCB file for ANTMINER S1 hash board
  - PCB file for ANTMINER S1 control board
- - Hex file for AR9331 module. We strongly recommended that you buy AR9331 module from Bitmain. Because the module is too complex, and it is not easy to produce it. In addition, there are different versions, we can¡¯t guarantee that our software suit for different version of AR9331 modules.
+ - Hex file for AR9331 module. We strongly recommended that you buy AR9331 module from Bitmain. Because the module is too complex, and it is not easy to produce it. In addition, there are different versions, we can not guarantee that our software suit for different version of AR9331 modules.
  - Hex file for PIC32MX250. You can buy PIC32MX250 from your local distributor or from us.
 
 Flexibility
