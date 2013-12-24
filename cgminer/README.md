@@ -1,10 +1,9 @@
 
 This is cgminer application for AntMiner USB miner.
 
-
 AntMiner USB miner options:
 
---bmsc-options <115200:timeout> Set antminer U1 configurations
+--bmsc-options <arg> Set antminer U1 configurations
 
 --bmsc-freq <arg> Set ASIC clock frequency
 
@@ -13,7 +12,7 @@ AntMiner USB miner options:
 
   baud value should be 115200
 
-  to sets the timeout value: to*100ms. timeout value should be less than: (2^32)/(freq*8)
+  to sets the timeout value: to*100ms. timeout value should be less than: 10*(2^32)/(freq*8)
 
 
   argment --bmsc-freq <freq>
@@ -58,7 +57,7 @@ run at default clock frequency(4F02, 193.75), timeout is 2s
 cgminer.exe --bmsc-options 115200:20 -o pool_url -u user -p password
 
 
-run at default 200M clock frequency, timeout is 2s
+run at 200M clock frequency, timeout is 2s
 
 cgminer.exe --bmsc-options 115200:20 -o pool_url -u user -p password --bmsc-freq 0781
 
