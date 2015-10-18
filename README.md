@@ -1,2 +1,2 @@
-AntMiner First Generaion technical materials.
+AntMiner First Generation technical materials.
 =======
